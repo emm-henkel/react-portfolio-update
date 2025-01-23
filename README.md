@@ -1,1 +1,1 @@
-test123
+This is a personal project based off of a template shared online. I have tried my best to update, add, change, and remove as many things as possible. I have a love for software design that is clean and easy to use and understand. The goal of this webpage is to advertise myself, my skills, and show off some of my personal and professional accomplishments.
