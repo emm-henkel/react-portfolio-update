@@ -1,5 +1,6 @@
 import React from "react";
 import oldportfolio from '../assets/images/oldportfolio.png';
+import liftleader from '../assets/images/liftleader.png';
 import mock09 from '../assets/images/mock09.png';
 import mock10 from '../assets/images/mock10.png';
 import '../assets/styles/Project.scss';
@@ -15,8 +16,8 @@ function Project() {
                 <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
             </div>
             <div className="project">
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://yujisatojr.itch.io/highspeedchase" target="_blank" rel="noreferrer"><h2>Out Lift</h2></a>
+                <a href="https://github.com/emm-henkel/gym-leaderboard-main" target="_blank" rel="noreferrer"><img src={liftleader} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/emm-henkel/gym-leaderboard-main" target="_blank" rel="noreferrer"><h2>Lift Leader</h2></a>
                 <p>An app desgined to "gameify" going to the gym. Allows a user to sign in, log their workouts, track what muscle groups were exercised, and compete against others for the top spot in a one-rep-max leaderboard for squat, bench, and deadlift.</p>
             </div>
             <div className="project">
