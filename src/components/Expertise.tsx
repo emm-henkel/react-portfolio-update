@@ -1,9 +1,10 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faAws} from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
+import { faComputer } from "@fortawesome/free-solid-svg-icons";
 
 const labelsFirst = [
     "React",
@@ -11,12 +12,13 @@ const labelsFirst = [
     "JavaScript",
     "HTML5",
     "CSS3",
-    "SASS",
-    "Flask",
     "Python",
+    "Java",
+    "Jython",
+    "R",
+    "MongoDB",
     "SQL",
-    "PostgreSQL",
-    "Postman"
+
 ];
 
 const labelsSecond = [
@@ -24,33 +26,36 @@ const labelsSecond = [
     "GitHub Actions",
     "Docker",
     "AWS",
-    "Azure",
+    "AWS CodeCommit",
+    "Trello",
     "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
+    "Apache NiFi",
+    "Apache Kafka"
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "Custom Built Systems",
+    "Troubleshooting",
+    "Repair",
+    "Installation",
+    "Personal Computers",
+    "Mac",
+    "Mobile Computing Devices",
+    "Printers",
+    "Custom Keyboards",
+    "Mobile Gaming Devices",
 ];
 
 function Expertise() {
     return (
     <div className="container" id="expertise">
         <div className="skills-container">
-            <h1>Expertise</h1>
+            <h1>Knowledge and Experience</h1>
             <div className="skills-grid">
                 <div className="skill">
                     <FontAwesomeIcon icon={faReact} size="3x"/>
                     <h3>Full Stack Web Development</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
+                    <p>I have built, maintained, and assisted in building a diverse array of web applications using modern technologies such as React and traditional technologies like HTML, CSS, and JavaScript. In positions utilizing these skills, I have also learned how to communicate with clients to show off progress, learn about their concerns, and update my work based on their expectations.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsFirst.map((label, index) => (
@@ -60,9 +65,9 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faDocker} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <FontAwesomeIcon icon={faAws} size="3x"/>
+                    <h3>DevOps & Documentation</h3>
+                    <p>In the process of building applications, I make it easier to see my accomplishments by setting up version control, and CI/CD pipelines. This makes it easier for me to keep projects running while still allowing myself and my fellow developers to work and break things to consistently improve.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsSecond.map((label, index) => (
@@ -72,11 +77,11 @@ function Expertise() {
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
+                    <FontAwesomeIcon icon={faComputer} size="3x"/>
+                    <h3>System Building</h3>
+                    <p>I was placed on the track of being a software developer by my love of computer hardware. I have a side gig of building, repairing, troubleshooting, and installing Personal Computing systems. This extends to other types of hardware such as mobile computing devices, mobile game devices, printers, and my most successful services - Custom Keyboards.</p>
                     <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
+                        <span className="chip-title">Services and Skills:</span>
                         {labelsThird.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
