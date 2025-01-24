@@ -1,8 +1,7 @@
 import React from "react";
 import oldportfolio from '../assets/images/oldportfolio.png';
 import liftleader from '../assets/images/liftleader.png';
-import mock09 from '../assets/images/mock09.png';
-import mock10 from '../assets/images/mock10.png';
+import temp from '../assets/images/temp.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -11,9 +10,9 @@ function Project() {
         <h1>Projects</h1>
         <div className="projects-grid">
             <div className="project">
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><img src={mock10} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://www.filmate.club/" target="_blank" rel="noreferrer"><h2>Filmate AI</h2></a>
-                <p>Developed movie finder app with semantic search and sentiment analysis using OpenAI GPT-3.5 Turbo, Qdrant, React, and Flask.</p>
+                <a href="https://github.com/emm-henkel" target="_blank" rel="noreferrer"><img src={temp} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/emm-henkel" target="_blank" rel="noreferrer"><h2>This is a placeholder</h2></a>
+                <p>Placeholder for me to add more stuff later - i wanna take a break </p>
             </div>
             <div className="project">
                 <a href="https://github.com/emm-henkel/gym-leaderboard-main" target="_blank" rel="noreferrer"><img src={liftleader} className="zoom" alt="thumbnail" width="100%"/></a>
