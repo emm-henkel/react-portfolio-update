@@ -17,7 +17,7 @@ function Main() {
             <a href="https://github.com/emm-henkel" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/emerson-henkel-2296ab1b8/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
-          <h1>Emerson M.Henkel</h1>
+          <h1>Emerson M. Henkel</h1>
           <p>Software Developer and System Builder</p>
 
           <div className="mobile_social_icons">
