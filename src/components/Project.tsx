@@ -1,7 +1,7 @@
 import React from "react";
 import oldportfolio from '../assets/images/oldportfolio.png';
 import liftleader from '../assets/images/liftleader-picture.png';
-import temp from '../assets/images/temp.png';
+import systembuild from '../assets/images/system-build.jpg';
 import trinityit from '../assets/images/trinityit.png';
 import gandr from '../assets/images/gandr.png';
 import '../assets/styles/Project.scss';
@@ -34,7 +34,7 @@ function Project() {
             <div className="project">
                 <a href="https://github.com/emm-henkel" target="_blank" rel="noreferrer"><h2>System Building</h2></a>
                 <p>During my break from work, I've had the time to get back into what made me fall in love with technology. I've worked on numerous systems as a way to provide for myself. These projects range from fully assembly, to routine maintainence and everything in between. </p>
-                <a href="https://github.com/emm-henkel" target="_blank" rel="noreferrer"><img src={temp} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/emm-henkel" target="_blank" rel="noreferrer"><img src={systembuild} className="zoom" alt="thumbnail" width="100%"/></a>
             </div>
         </div>
     </div>
