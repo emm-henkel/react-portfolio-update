@@ -4,6 +4,7 @@ import liftleader from '../assets/images/liftleader-picture.png';
 import systembuild from '../assets/images/system-build.jpg';
 import trinityit from '../assets/images/trinityit.png';
 import gandr from '../assets/images/gandr.png';
+import productivity from'../assets/images/productivity-app.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -30,6 +31,11 @@ function Project() {
                 <a href="https://github.com/emm-henkel/react-portfolio" target="_blank" rel="noreferrer"><h2>Portfolio V1</h2></a>
                 <p>The original version of my portfolio, but my first attempt at marketing myself that helped me land my first internship which evolved into a full time offer. This website utilizes ReactJS and was hosted on Netlify</p>
                 <a href="https://github.com/emm-henkel/react-portfolio" target="_blank" rel="noreferrer"><img src={oldportfolio} className="zoom" alt="thumbnail" width="100%"/></a>
+            </div>
+            <div className="project">
+                <a href="https://github.com/emm-henkel/notion-clone" target="_blank" rel="noreferrer"><h2>Productivity App</h2></a>
+                <p>This is my current project, hence the semi redundant image. My goal for this project is to learn more about backend and user authentication. Currently there is a login tied to the user's Google login, accessed through Firebase.</p>
+                <a href="https://github.com/emm-henkel/notion-clone" target="_blank" rel="noreferrer"><img src={productivity} className="zoom" alt="thumbnail" width="100%"/></a>
             </div>
             <div className="project">
                 <a href="https://github.com/emm-henkel" target="_blank" rel="noreferrer"><h2>System Building</h2></a>
