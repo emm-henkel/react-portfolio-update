@@ -5,7 +5,7 @@ function About() {
     return(
     <div className="about-container" id="about">
         <h1>About Me</h1>
-        <p>
+        <p className="about-me">
             I'm a software developer native to Philadelphia with three years of experience. I have a passion for creating intuitive and responsive web applications, 
             and I'm particularly interested in frontend and web development roles. My goal is to build seamless user experiences while continuously expanding my technical expertise.
         </p>

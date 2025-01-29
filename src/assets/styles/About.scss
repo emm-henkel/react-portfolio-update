@@ -6,10 +6,13 @@
 }
 
 .about-container p{
-    padding: 0% 15%;
     display: flex;
     flex-direction: column;
     text-align: left;
+}
+
+.about-me{
+    padding: 0% 10%;
 }
 
 .about-container .pursuits-grid {
