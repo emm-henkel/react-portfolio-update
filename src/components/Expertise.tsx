@@ -8,8 +8,8 @@ import { faComputer } from "@fortawesome/free-solid-svg-icons";
 
 const labelsFirst = [
     "React",
-    "TypeScript",
     "JavaScript",
+    "TypeScript",
     "HTML5",
     "CSS3",
     "Python",
@@ -23,7 +23,6 @@ const labelsFirst = [
 
 const labelsSecond = [
     "Git",
-    "GitHub Actions",
     "Docker",
     "AWS",
     "AWS CodeCommit",
@@ -43,7 +42,6 @@ const labelsThird = [
     "Mobile Computing Devices",
     "Printers",
     "Custom Keyboards",
-    "Mobile Gaming Devices",
 ];
 
 function Expertise() {
