@@ -9,6 +9,10 @@ function About() {
             I'm a software developer native to Philadelphia with three years of experience. I have a passion for creating intuitive and responsive web applications, 
             and I'm particularly interested in frontend and web development roles. My goal is to build seamless user experiences while continuously expanding my technical expertise.
         </p>
+        <p className="about-me">
+            Please reach out to me for a copy of my resume or if you have a job opportunity!
+        </p>
+        <h2 className="about-me"><strong>emm.henkel@gmail.com</strong></h2>
 
         <h1 className="about-header">Current Pursuits</h1>
         <div className="pursuits-grid">
